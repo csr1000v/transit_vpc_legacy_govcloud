@@ -92,7 +92,7 @@
       "ap-southeast-2"   : {"AMI" : "ami-55d4e436"},
       "ap-south-1"       : {"AMI" : "ami-cacbbea5"},
       "sa-east-1"        : {"AMI" : "ami-b777e4db"},
-      "us-gov-west-1"    : {"AMI" : "ami-77199016"}
+      "us-gov-west-1"    : {"AMI" : "ami-3b48d85a"}
     }
   },
 
