@@ -7,5 +7,5 @@ This repository contains templates for deploying the legacy transit vpc solution
 
 # Step 2: Example Spoke template launch
 
-[![Click Here to Launch the template](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.amazonaws-us-gov.com/cloudformation/home?region=us-gov-west-1#/stacks/new?stackName=SpokeVPC&templateURL=https://s3-us-gov-west-1.amazonaws.com/csr1000v-legacy-transit-vpc-solution/transit-vpc-spoke-vpc-withec2.template)
+[![Click Here to Launch the template](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.amazonaws-us-gov.com/cloudformation/home?region=us-gov-west-1#/stacks/new?templateURL=https://s3-us-gov-west-1.amazonaws.com/csr1000v-legacy-transit-vpc-solution/transit-vpc-spoke-vpc-withec2.template)
 
