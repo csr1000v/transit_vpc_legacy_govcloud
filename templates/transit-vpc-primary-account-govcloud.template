@@ -132,7 +132,7 @@
   "Mappings" : {
     "Function" : {
       "Configurator" : {
-        "S3Bucket" : "csr1000v-legacy-transit-vpc-solution",
+        "S3Bucket" : "csr1000v-legacy-transit-vpc-solution-gov",
 	      "S3Key" : "transit_vpc_push_cisco_config.zip",
         "Name" : "cisco-configurator",
         "Handler": "transit_vpc_push_cisco_config/lambda_function.lambda_handler",
@@ -142,7 +142,7 @@
         "MemorySize": "128"
       },
       "Poller" : {
-        "S3Bucket" : "csr1000v-legacy-transit-vpc-solution",
+        "S3Bucket" : "csr1000v-legacy-transit-vpc-solution-gov",
 	      "S3Key" : "transit-vpc-poller.zip",
         "Name" : "vgw-poller",
         "Handler": "transit-vpc-poller.lambda_handler",
@@ -562,7 +562,7 @@
       	"Role": { "Fn::GetAtt" : [ "SolutionHelperRole" , "Arn" ] },
         "Description": "Transit VPC: CloudFormation custom resource function invoked during transit VPC CloudFormation create, update, and delete stack operations.",
       	"Code": {
-      	  "S3Bucket": "csr1000v-legacy-transit-vpc-solution",
+      	  "S3Bucket": "csr1000v-legacy-transit-vpc-solution-gov",
       	  "S3Key": "solution-helper.zip"
       	},
       	"Runtime": "python2.7",
